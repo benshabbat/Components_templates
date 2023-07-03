@@ -8,6 +8,19 @@ const Register = () => {
   const [user, setUser] = useState("")
   const [validName, setValidName] = useState(false)
   const [userFocus, setUserFocus] = useState(false)
+
+  const [password, setPassword] = useState("")
+  const [validPassword, setValidPassword] = useState(false)
+  const [passwordFocus, setPasswordFocus] = useState(false)
+
+  const [matchPass, setMatchPass] = useState("")
+  const [validMatchPass, setValidMatchPass] = useState(false)
+  const [matchPassFocus, setMatchPassFocus] = useState(false)
+
+  const [errMsg, setErrMsg] = useState("")
+  const [isSuccses, setIsSuccses] = useState(false)
+
+
   return (
     <div>
       
